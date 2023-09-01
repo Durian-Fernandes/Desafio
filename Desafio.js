@@ -8,7 +8,7 @@ function calcularConta() {
   const totalAntes = valorAntesHappyHour * quantidadeAntes;
   const totalApos = valorAposHappyHour * quantidadeApos;
   const subtotal = totalAntes + totalApos;
-  const taxaServico = 0.10 * subtotal;
+  const taxaServico = 0.10 * totalApos;
   const valorTotal = subtotal + taxaServico;
 
   const resultado = `
