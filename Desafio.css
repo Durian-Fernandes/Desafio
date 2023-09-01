@@ -1,6 +1,9 @@
 body {
   font-family: Arial, sans-serif;
-  background-color:#0A2733;
+  background-image: url(/img/Happyhour.jpg);
+  background-size: cover; 
+  background-position: center; 
+  background-attachment: fixed;
   margin: 0;
   padding: 0;
   display: flex;
